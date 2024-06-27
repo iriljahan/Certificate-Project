@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Smart Travel BD</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 id="title">Smart Travel BD</h1>
+    <p id="description">
+      Welcome to our page Smarter Travel BD! Thank you for trusting us with your
+      wonderful trip, hope you find your favorite travel services on our page
+    </p>
+    <form id="survey-form">
+      <label id="name-label">
+        <input id="name" type="text" placeholder="Your Name" required />
+      </label>
+      <label id="email-label">
+        <input id="email" type="email" placeholder="Your Email" required />
+      </label>
+      <label id="number-label">
+        <input id="number" type="number" min="1" max="130" placeholder="Age" />
+      </label>
+      <select id="dropdown">
+        <option value="">(select one Airport)</option>
+        <option value="1">Hazrat Shahjalal International Airport</option>
+        <option value="2">Shah Amanat International Airport</option>
+        <option value="3">Saidpur Airport</option>
+        <option value="4">Other</option>
+        <input type="radio" value="1" name="choice" />
+        <input type="radio" value="2" name="choice" />
+        <input type="radio" value="3" name="choice" />
+      </select>
+      <input type="checkbox" value="1" />
+      <input type="checkbox" value="2" />
+      <input type="checkbox" value="3" />
+      <textarea>Share Your Experience</textarea>
+      <button id="submit" type="submit"></button>
+    </form>
+  </body>
+</html>
